@@ -146,11 +146,16 @@ body {
 
 /* Courses Section Start */
 
-.card {
+.courses-section .card {
     border: none;
     border-radius: 18px;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.courses-section .card:hover {
+    transform: scale(1.05);
 }
 
 .card-footer {
