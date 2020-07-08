@@ -16,43 +16,45 @@
   </head>
 
   <body>
-      
-  <!-- Header Section Start -->
-    <header class="header-section">
 
       <!-- Navbar Start-->
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">
-              <img class="logo" src="img/logo.png" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Books<span class="sr-only">(current)</span></a>
+
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container">        
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Books<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Others</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item sign-in-btn">
+                  <a class="nav-link" href="#">Sign In</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Others</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item sign-in-btn">
-                <a class="nav-link" href="#">Sign In</a>
-            </li>
-            </ul>
+              </ul>
+            </div>
           </div>
         </nav>
-      </div>
+      
       <!-- Navbar End-->
 
-      <!-- Cover Start -->
+  <!-- Header Section Start -->
+
+    <header class="header-section">
+
       <div class="container">
         <div class="row align-item-center">
 
@@ -64,17 +66,15 @@
               <button class="get-started-btn">Get Started</button>
             </div>
           </div>
-
           <div class="col-md-6">
             <div class="img-area">
-              <img class="cover-img" src="img/photos/illustration.png" alt="header image">
+              <img class="cover-img img-fluid" src="img/photos/illustration.png" alt="header image">
             </div>
           </div>
 
         </div>
 
       </div>
-      <!-- Cover End -->
 
     </header>
     
@@ -84,47 +84,55 @@
 
   <section class="about-section">
 
-      <div class="container">
-      
-        <div class="row">
+    <div class="row justify-content-center">
+      <h2 class="section-title">Why Choose Us</h2>
+    </div>
 
-          <div class="col-md-3">
-            <div class="card d-inline-flex justify-content-center align-items-center">
-              <div class="card-items justify-content-center align-items-center">
-                <div class="item-img"><img class="justify-content-center item1" src="img/icons/book.png" alt="Book"></div>
-                <h5>1500+ Topic</h5>
-                <p>Learn anything</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card d-inline-flex justify-content-center align-items-center">
-              <div class="card-items justify-content-center align-items-center">
-                <div class="item-img"><img class="justify-content-center item2" src="img/icons/Student.png" alt="Student"></div>
-                <h5>1800+ Students</h5>
-                <p>Learn anything</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card d-inline-flex justify-content-center align-items-center">
-              <div class="card-items justify-content-center align-items-center">
-                <div class="item-img"><img class="justify-content-center item3" src="img/icons/Test.png" alt="Test"></div>
-                <h5>9K+ Test Taken</h5>
-                <p>Learn anything</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card d-inline-flex justify-content-center align-items-center">
-              <div class="card-items justify-content-center align-items-center">
-                <div class="item-img"><img class="justify-content-center item4" src="img/icons/Students.png" alt="Courses"></div>
-                <h5>200+ Courses</h5>
-                <p>Learn anything</p>
-              </div>
-            </div>
-          </div>
+      <div class="container ">
 
+        <div class="row d-flex justify-content-center">
+        
+          <div class="card-deck">
+              
+              <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                <div class="card d-inline-flex justify-content-center align-items-center">
+                  <div class="card-items justify-content-center align-items-center">
+                    <div class="item-img"><img class="justify-content-center item1" src="img/icons/book.png" alt="Book"></div>
+                    <h5>1500+ Topic</h5>
+                    <p>Learn anything</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                <div class="card d-inline-flex justify-content-center align-items-center">
+                  <div class="card-items justify-content-center align-items-center">
+                    <div class="item-img"><img class="justify-content-center item2" src="img/icons/Student.png" alt="Student"></div>
+                    <h5>1800+ Students</h5>
+                    <p>Learn anything</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                <div class="card d-inline-flex justify-content-center align-items-center">
+                  <div class="card-items justify-content-center align-items-center">
+                    <div class="item-img"><img class="justify-content-center item3" src="img/icons/Test.png" alt="Test"></div>
+                    <h5>9K+ Test Taken</h5>
+                    <p>Learn anything</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                <div class="card d-inline-flex justify-content-center align-items-center">
+                  <div class="card-items justify-content-center align-items-center">
+                    <div class="item-img"><img class="justify-content-center item4" src="img/icons/Students.png" alt="Courses"></div>
+                    <h5>200+ Courses</h5>
+                    <p>Learn anything</p>
+                  </div>
+                </div>
+              </div>
+                  
+          </div>
+       
         </div>
 
       </div>
@@ -137,20 +145,42 @@
 
   <section class="courses-section">
 
+    <div class="row justify-content-center">
+      <h2 class="section-title">Courses</h2>
+    </div>
+
     <div class="container align-items-center">
 
       <div class="card-deck">
         <div class="card">
-          <img src="img/photos/modern-pyschology1.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="img/photos/modern-pyschology1.png" class="card-img-top img-fluid" alt="...">
+          <div class="card-body ">
             <h5 class="card-title">Modern Psychology</h5>
-            <p class="card-text">Designation</p>
-            <button class="get-started-btn">Buy Now</button>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita?</p>
+            <button class="buy-btn">Buy Course</button>
           </div>
           <div class="card-footer d-flex justify-content-between">
             <div class="date">
               <img class="date-icon" src="img/icons/calendar.png" alt="calendar">
               <span>Start 20  April, 2021</span>
+            </div>
+            <div class="seat">
+              <img class="seat-icon" src="img/icons/people.png" alt="seat">
+              <span>35 Seats</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/photos/modern-pyschology2.png" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Computer Science</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="buy-btn">Buy Course</button>
+          </div>
+          <div class="card-footer d-flex justify-content-between">
+            <div class="date">
+              <img class="date-icon" src="img/icons/calendar.png" alt="calendar">
+              <span>Start 29  May, 2021</span>
             </div>
             <div class="seat">
               <img class="seat-icon" src="img/icons/people.png" alt="seat">
@@ -159,38 +189,20 @@
           </div>
         </div>
         <div class="card">
-          <img src="img/photos/modern-pyschology2.png" class="card-img-top" alt="...">
+          <img src="img/photos/modern-pyschology3.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Modern Psychology</h5>
-            <p class="card-text">Designation</p>
-            <button class="get-started-btn">Buy Now</button>
+            <h5 class="card-title">Social Psychology</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <button class="buy-btn">Buy Course</button>
           </div>
           <div class="card-footer d-flex justify-content-between">
             <div class="date">
               <img class="date-icon" src="img/icons/calendar.png" alt="calendar">
-              <span>Start 20  April, 2021</span>
+              <span>Start 12  March, 2021</span>
             </div>
             <div class="seat">
               <img class="seat-icon" src="img/icons/people.png" alt="seat">
-              <span>60 Seats</span>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/photos/modern-pyschology3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Modern Psychology</h5>
-            <p class="card-text">Designation</p>
-            <button class="get-started-btn">Buy Now</button>
-          </div>
-          <div class="card-footer d-flex justify-content-between">
-            <div class="date">
-              <img class="date-icon" src="img/icons/calendar.png" alt="calendar">
-              <span>Start 20  April, 2021</span>
-            </div>
-            <div class="seat">
-              <img class="seat-icon" src="img/icons/people.png" alt="seat">
-              <span>60 Seats</span>
+              <span>50 Seats</span>
             </div>
           </div>
         </div>
@@ -204,23 +216,80 @@
 
   <!-- Testimonial Section Start -->
 
+  <section class="testimonial-section">
+
+    <div class="row justify-content-center">
+      <h2 class="section-title">Testimonial</h2>
+    </div>
+
+    <div class="container d-flex align-item-center">
+      
+
+      <div class="testimonial-item d-flex align-item-center">
+        <img src="img/photos/man.png" alt="man">
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, 
+          or randomised words which don't look even slightly believable.</p>
+      </div>
+
+    </div>
+
+  </section>
+
   <!-- Testimonial Section End -->
 
   <!-- Footer Section Start -->
 
+  <footer class="footer-section">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3">
+          <p>Millions of people of all ages and from around
+            the world are improving their lives with us</p>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>Courses</li>
+            <li>Graphics Design</li>
+            <li>Web Design</li>
+            <li>Digital Marketing</li>
+            <li>Business</li>
+            <li>Engineering</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>Terms</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Help</li>
+            <li>Team</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>Useful Link</li>
+            <li>Blog</li>
+            <li>Books</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center">
+        <div class="copyright d-flex align-items-center">
+          <p>Copyright © 2020 | E-School</p>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
   <!-- Footer Section End -->
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

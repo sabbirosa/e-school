@@ -4,11 +4,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Header Section Start */
-.header-section {
-    width: 100%;
-    height: 576px;
-    background-color: #f0fff0;
+.section-title {
+    font-weight: bold;
+    color: #413960;
+    text-decoration: underline;
+    text-decoration-color: #21b573;
 }
 
 /* Navbar Start */
@@ -43,9 +43,19 @@ body {
     font-weight: 500;
 }
 
+.sticky-top {
+    background-color: #f0fff0;
+}
+
 /* Navbar End */
 
-/* Cover Start */
+/* Header Section Start */
+.header-section {
+    width: 100%;
+    height: 576px;
+    background-color: #f0fff0;
+}
+
 .get-started-btn {
     border: none;
     color: #fff;
@@ -84,8 +94,6 @@ body {
     height: 346px;
 }
 
-/* Cover End */
-
 /* Header Section End */
 
 /* About Section Start */
@@ -100,8 +108,13 @@ body {
 
 .about-section .card:hover {
     background-color: white;
+    transform: scale(1.03);
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+}
+
+.about-section .section-title {
+    padding: 45px 0px;
 }
 
 .item1{
@@ -146,6 +159,10 @@ body {
 
 /* Courses Section Start */
 
+.courses-section .section-title {
+    padding: 45px 0px;
+}
+
 .courses-section .card {
     border: none;
     border-radius: 18px;
@@ -161,12 +178,7 @@ body {
 .card-footer {
     border: none;
     background-color: transparent;
-    padding: 20px 15px;
-}
-
-.courses-section {
-    margin-top: 50px;
-    height: 100vh;
+    padding: 15px 15px;
 }
 
 .card-img-top {
@@ -174,6 +186,19 @@ body {
     height: 234px;
     margin: auto;
     padding: 15px 5px;
+    position: relative;
+}
+
+.card-body h5{
+    font-size: 24;
+    font-weight: 500;
+    color: #413960;
+}
+
+.card-body p{
+    font-size: 16px;
+    color: #585859;
+    padding: 0px 0px 10px 0px;
 }
 
 .date-icon, .seat-icon {
@@ -190,5 +215,84 @@ body {
     color: #585859;
 }
 
+.buy-btn {
+    border: none;
+    color: #fff;
+    background-color: #21b573;
+    border-radius: 25px;
+    padding: 8px 40px;
+}
+
 
 /* Courses Section End */
+
+/* Testimonial Section Start */
+.testimonial-section {
+    padding: 50px 0px 100px 0px;
+}
+
+.testimonial-section .section-title {
+    padding: 45px 0px;
+}
+
+.testimonial-item img {
+    width: 120px;
+    display: inline-block;
+    float: left;
+    position: absolute;
+}
+
+.testimonial-item p {
+    width: 583px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.testimonial-item {
+    margin: auto;
+    position: relative;
+}
+
+
+/* Testimonial Section End */
+
+/* Footer Section Start */
+.footer-section {
+    height: 369px;
+    background-color: #282531;
+    line-height: 30px;
+}
+
+.footer-section ul :first-child {
+    font-size: 16px;
+    font-weight: 700;    
+}
+
+.footer-section ul {
+    font-size: 16px;
+    font-weight: 200 !important;
+    list-style: none;
+    color: #fff;  
+}
+
+.footer-section p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;   
+}
+
+.copyright {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.copyright p {
+    font-size: 14px;
+    color: #cdcdcd;
+    font-weight: 200 !important;
+}
+
+/* Footer Section End */
